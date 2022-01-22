@@ -1,0 +1,19 @@
+import java.util.*; //used for accessing the scanner  
+public class Main //declaration of class
+{
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);//created a new scanner
+		
+		System.out.println("Enter a number :");//asked for the value to user
+		int n =scn.nextInt();//for storage of value given by user
+		
+		if(n%2==0) {    //method to check the condition for even or odd
+		    System.out.println(n+" is an even number!");
+		}
+		else
+
+		{
+		    System.out.println(n+" is an odd number");
+		}
+	}
+}

@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int  firstnum = 0 , secondnum = 1 ;
+		 Scanner scn = new Scanner(System.in);
+		 
+		 System.out.print("enter how many units of fibonacci series you want : ");
+		 int n = scn.nextInt();
+		 
+		 for(int i = 1; i<= n ; ++i){
+		 System.out.print( ", " +firstnum);
+		 
+		     int nextnum = firstnum + secondnum;
+             firstnum = secondnum;
+             secondnum = nextnum;
+		 }
+		 
+		 
+	}
+}
